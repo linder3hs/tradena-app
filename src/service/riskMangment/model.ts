@@ -1,0 +1,32 @@
+export interface RiskManagment {
+  id?: number;
+  initialBalance?: number;
+  maxRisk?: number;
+  maxLeverage?: number;
+  maxTrades?: number;
+  period?: string;
+  userId?: number;
+  maxBuyPower?: number;
+  recommendLeverage?: number;
+  maxLossPerDay?: number;
+  maxLossPerTrade?: number;
+  riskScore?: number;
+  riskScoreColor?: string;
+  leverageScore?: number;
+  leverageScoreColor?: string;
+  maxTradesScore?: number;
+  maxTradesScoreColor?: string;
+  riskScoreMessage?: string;
+  leverageScoreMessage?: string;
+  maxTradesScoreMessage?: string;
+  state: number;
+  status?: string;
+  maxBuyPowerScore?: number;
+  maxBuyPowerColor?: string;
+  maxBuyPowerMessage?: string;
+  totalScore?: number;
+  totalColor?: string;
+  totalMessage?: string;
+  createdAt?: string;
+  updatedAt?: string;
+}
